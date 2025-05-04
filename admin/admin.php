@@ -9,7 +9,7 @@ $usermail=$_SESSION['usermail'];
 if($usermail == true){
 
 }else{
-  header("location: http://localhost/hotelmanage_system/index.php");
+  header("location: http://localhost/hotelmanage_system/staff_login.php");
 }
 
 ?>
@@ -43,7 +43,7 @@ if($usermail == true){
             <p>BLUEBIRD</p>
         </div>
         <div class="logout">
-        <a href="../logout.php"><button class="btn btn-primary">Logout</button></a>
+        <a href="../staff_login.php"><button class="btn btn-primary">Logout</button></a>
         </div>
     </nav>
     <nav class="sidenav">
